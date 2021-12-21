@@ -8,7 +8,7 @@ import { Disconnectable, Part } from "./lit-html.ts";
 
 export type { Part } from "./lit-html.ts";
 
-export {
+export type {
   AttributePart,
   BooleanAttributePart,
   ChildPart,
