@@ -381,7 +381,6 @@ const walker = d.createTreeWalker(
   d,
   129, /* NodeFilter.SHOW_{ELEMENT|COMMENT} */
   null,
-  false,
 );
 
 let sanitizerFactoryInternal: SanitizerFactory = noopSanitizer;
